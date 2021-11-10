@@ -33,6 +33,13 @@ class MyApp extends StatelessWidget {
           ).copyWith(
             secondary: Colors.deepOrange,
           ),
+          textTheme: ThemeData.light().textTheme.copyWith(
+                headline6: const TextStyle(
+                  fontFamily: 'RobotoCondensed',
+                  fontSize: 20,
+                  color: Colors.white,
+                ),
+              ),
         ),
         home: ProductsOverviewPage(),
         routes: {
