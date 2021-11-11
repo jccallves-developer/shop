@@ -14,7 +14,7 @@ class Badge extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    //Stack -> Coloca um elemento acima do outro
+    //! Stack -> Coloca um elemento acima do outro
     return Stack(
       alignment: Alignment.center,
       children: [
